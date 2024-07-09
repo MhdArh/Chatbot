@@ -3,7 +3,7 @@
     .embeddedServiceHelpButton .helpButton .uiButton {
         background-color: rgb(255, 172, 6) !important; /* Orange color */
         font-family: "Arial", sans-serif;
-        border-radius: 50% !important; /* Circle shape */
+        border-radius: 100% !important; /* Circle shape */
         width: 50px !important; /* Set width for circular shape */
         height: 50px !important; /* Set height for circular shape */
         display: flex !important;
