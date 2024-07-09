@@ -13,11 +13,12 @@
         align-items: center !important;
         justify-content: center !important;
 	}
-    .embeddedServiceIcon{
+	.embeddedServiceIcon{
         padding-left: 8px;
+    }
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #FFAC06;
-	}
+        outline: 1px solid #FFAC06 !important; /* Orange color */
+    }
 </style>
 
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
