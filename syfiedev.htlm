@@ -1,27 +1,21 @@
 <html>
 <style type='text/css'>
-    .embeddedServiceSidebarMinimizedDefaultUI,
-    .forceCommunityEmbeddedServiceHelpButton .flatButton {
-        font-family: "Arial", sans-serif;
-        width: 10px !important;
-        height: 50px !important;
-        border-radius: 50% !important;
-        padding: 0px !important; /* Ensure no extra padding */
-        display: flex !important; /* Ensure flex display for centering */
-        align-items: center !important; /* Center align items */
-        justify-content: center !important; /* Center justify items */
+    .embeddedServiceHelpButton .helpButton .uiButton {
         background-color: rgb(255, 172, 6) !important; /* Orange color */
+        font-family: "Arial", sans-serif;
+        border-radius: 100% !important; /* Circle shape */
+        width: 50px !important; /* Set width for circular shape */
+        height: 50px !important; /* Set height for circular shape */
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 0 !important; /* Remove padding */
         border: none !important;
         box-sizing: border-box !important; /* Ensure border-box sizing */
+        text-align: center; /* Center text */
     }
-    .embeddedServiceSidebarMinimizedDefaultUI {
-        min-height: unset !important;
-        min-width: unset !important;
-        border: 0px;
-        bottom: 12px !important;
-        overflow: unset !important;
-        box-shadow: none !important;
-        background-color: rgb(255, 172, 6) !important; /* Orange color */
+    .embeddedServiceHelpButton .helpButton .uiButton:focus {
+        outline: 1px solid rgb(255, 172, 6) !important; /* Orange color */
     }
 </style>
 
@@ -77,6 +71,5 @@
         initESW('https://service.force.com');
     }
 </script>
-
 
 </html>
