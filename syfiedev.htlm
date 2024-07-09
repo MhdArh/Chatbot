@@ -12,6 +12,7 @@
         padding: 0 !important; /* Remove padding */
         border: none !important;
         box-sizing: border-box !important; /* Ensure border-box sizing */
+        text-align: center; /* Center text */
     }
     .embeddedServiceHelpButton .helpButton .uiButton:focus {
         outline: 1px solid rgb(255, 172, 6) !important; /* Orange color */
@@ -70,6 +71,5 @@
         initESW('https://service.force.com');
     }
 </script>
-
 
 </html>
