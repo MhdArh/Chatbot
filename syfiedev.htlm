@@ -3,6 +3,8 @@
     .embeddedServiceHelpButton .helpButton .uiButton {
         background-color: #FFAC06 !important; /* Orange color */
         font-family: "Arial", sans-serif;
+        min-width: unset;
+        max-width: unset;
         width: 50px !important;
         height: 50px !important;
         border-radius: 50% !important;
@@ -10,6 +12,9 @@
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
+    }
+    .embeddedServiceIcon{
+        padding-left: 8px;
     }
     .embeddedServiceHelpButton .helpButton .uiButton:focus {
         outline: 1px solid #FFAC06 !important; /* Orange color */
