@@ -1,7 +1,7 @@
 <html>
 <style type='text/css'>
     .embeddedServiceHelpButton .helpButton .uiButton {
-        background-color: #0000FF !important; /* Blue color */
+        background-color: rgb(255, 172, 6) !important; /* Orange color */
         font-family: "Arial", sans-serif;
         border-radius: 50% !important; /* Circle shape */
         width: 50px !important; /* Set width for circular shape */
@@ -9,10 +9,12 @@
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
+        padding: 0 !important; /* Remove padding */
         border: none !important;
+        box-sizing: border-box !important; /* Ensure border-box sizing */
     }
     .embeddedServiceHelpButton .helpButton .uiButton:focus {
-        outline: 1px solid #0000FF !important; /* Blue color */
+        outline: 1px solid rgb(255, 172, 6) !important; /* Orange color */
     }
 </style>
 
@@ -68,5 +70,6 @@
         initESW('https://service.force.com');
     }
 </script>
+
 
 </html>
