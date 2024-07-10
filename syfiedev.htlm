@@ -1,7 +1,7 @@
 <html>
 <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #FFAC06 !important; /* Orange color */
+		background-color: #14B590 !important; /* green color */
         font-family: "Arial", sans-serif;
         min-width: unset;
         max-width: unset;
@@ -17,7 +17,7 @@
         padding-left: 8px;
     }
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-        outline: 1px solid #FFAC06 !important; /* Orange color */
+        outline: 1px solid #14B590 !important; /* Green color */
     }
 </style>
 
